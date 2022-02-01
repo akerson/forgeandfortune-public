@@ -1,0 +1,104 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.error_content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-box_icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.error-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.shard-0 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  background: center / 100% 100% url('../assets/images/social/social_image.jpg');
+  filter: blur(50px);
+  opacity: 0.25;
+}
+
+.shard-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--gradient-primary);
+}
+
+.shard-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--gradient-secondary);
+}
+
+.content-box_icon > i {
+  font-size: 7.5rem;
+}
+
+.details_title {
+  margin: 0;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-bottom: 2px solid var(--border-primary);
+}
+
+.details_description {
+  margin-bottom: 30px;
+  padding: 20px;
+  max-width: 500px;
+  color: var(--text-secondary);
+}
+
+.details_play-button {
+  position: relative;
+  top: 0;
+  padding: 10px 20px;
+  color: var(--text-white);
+  text-decoration: none;
+  background-color: var(--bg-primary);
+  border: 2px solid var(--border-secondary);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.details_play-button:hover {
+  top: -3px;
+  border-color: var(--border-tertiary);
+  color: var(--highlight);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.25);
+}

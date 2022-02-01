@@ -1,0 +1,22 @@
+Dear Buyer,
+
+Thank you for getting and using our asset!
+
+Here's a quick help in a case you wish to edit some of the individual elements of the background layers in Photoshop, and you are not sure how.
+We generally tend to group multiple elements of one layer into, so called, "Smart Object" that is editable either within Photoshop or Illustrator software - varies from one case to another.
+To do that:
+1. Select the Smart Object from the Layers panel, and do one of the following: Choose Layer > Smart Objects > Edit Contents. Or alternatively just double-click at the Smart Object ;)
+2. Click OK to close the dialog box.
+3. Make edits to the source content file, then choose File > Save.
+Once you save the changes made in the source content file, you can close it and the change will appear in the edited layer of the PSD file.
+
+In a case the Smart Object requires editing in the Illustrator software, please follow same steps. The only difference is that the Smart Object will run Illustrator to be edited within. Once you are done with the modifications within Illustrator, save changes and close the software. You will notice those changes being applied in the Photoshop file.
+
+Easy as that :)
+
+
+Once again, thank you for the purchase and good luck with your project!
+THE FUSEHIVE TEAM
+www.fusehive.com
+
+

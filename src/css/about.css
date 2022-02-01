@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.expanded {
+    max-height: 1000px!important;
+}
+
+body {
+    background-color: var(--bg-secondary);
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user-card .user-desc, .asset-card .asset-desc, .header .section-desc {
+    font-family: 'Varela Round', "Open Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header .section-heading {
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-primary);
+}
+
+.back-to {
+    display: inline-block;
+    padding: 15px 20px;
+    color: var(--text-primary);
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: var(--transition_linear);
+}
+
+.back-to:hover {
+    background-color: var(--bg-secondary);
+}
+
+#wrapper {
+    margin: 0 auto 50px;
+    max-width: 1600px;
+    text-align: center;
+}
+
+.ff-banner {
+    width: 100%;
+    height: 192px;
+    background: center / cover url('../assets/images/site-banner.png') no-repeat;
+    border-bottom: 2px solid var(--border-primary);
+    animation: 1s slide-down forwards, 1s fade-in forwards;
+    opacity: 0;
+    transform: translateY(-100%);
+    transform-origin: top;
+}
+
+.header {
+    -webkit-animation: .75s scale-in;
+    animation: .75s scale-in;
+}
+
+.header .section-heading {
+    position: relative;
+    margin: 35px 0 15px;
+    font-size: 2.25em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.header .section-heading:after {
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: var(--border-secondary);
+    max-width: 125px;
+    margin: 10px auto;
+}
+
+.header .section-desc {
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.version-heading {
+    position: relative;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    font-weight: normal;
+    border-bottom: 2px solid var(--border-secondary);
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-animation: 1s 0.75s fade-in forwards;
+    animation: 1s 0.75s fade-in forwards;
+}
+
+.heading-arrow {
+    right: -30px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#cc-container .card-container {
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.user-card, .player-card, .asset-card {
+    margin: 10px;
+    padding: 20px;
+    max-width: 350px;
+    background-color: var(--bg-primary);
+    border: 2px solid var(--border-primary);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card .user-pic {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+    border: 2px solid var(--bg-primary);
+    box-shadow: 0 0 0 2px var(--border-secondary);
+    transform: scale(0);
+}
+
+.user-card .user-pic.jakerson {
+    background-image: url('../assets/images/userpics/staff/akerson.png');
+    background-size: contain;
+}
+
+.user-card .user-pic.richard {
+    background-image: url('../assets/images/userpics/staff/richard.png');
+    background-size: contain;
+}
+
+.user-card .user-pic.abqu {
+    background-image: url('../assets/images/userpics/staff/abqu.png');
+    background-size: contain;
+}
+
+.user-card .user-pic.abqu:hover {
+    background-image: url('../assets/images/userpics/staff/abqu_wink.png');
+    background-size: contain;
+}
+
+.user-card .user-pic.kakerson {
+    background-image: url('../assets/images/userpics/staff/katie.png');
+    background-size: contain;
+}
+
+.preload {
+    display: block;
+    height: 0;
+    width: 0;
+}
+
+.user-card .user-name {
+    margin: -30px -20px 0;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 1.5em;
+    font-style: italic;
+    color: var(--highlight);
+    text-shadow: 2px 2px var(--border-tertiary);
+    background: linear-gradient(transparent 0%, var(--bg-primary) 30%);
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.user-card .user-title {
+    font-weight: normal;
+    font-size: 0.85rem;
+    opacity: 0;
+}
+
+.user-card .user-title > i {
+    margin-right: 5px;
+}
+
+.user-card .user-desc {
+    position: relative;
+    flex-grow: 1;
+    margin: 10px -20px 0;
+    padding: 20px;
+    font-size: .85em;
+    color: var(--text-tertiary);
+    background-color: var(--bg-secondary);
+    border-top: 2px solid var(--border-primary);
+    border-bottom: 2px solid var(--border-primary);
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.external-link_inline {
+    color: var(--text-tertiary);
+    text-decoration: none;
+    transition: var(--transition_linear);
+}
+
+.external-link_inline:hover {
+    color: var(--highlight);
+}
+
+.player-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    text-align: left;
+}
+
+.player-card .player-pic {
+    margin-right: 15px;
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+    border: 2px solid var(--border-primary);
+    transform: scale(0);
+}
+
+.player-card .player-name {
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 0;
+}
+
+.player-card .player-title {
+    font-weight: normal;
+    font-size: 0.8em;
+    opacity: 0;
+}
+
+.asset-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+
+.asset-card .asset-pic {
+    max-height: 200px;
+}
+
+.asset-card .asset-name {
+    padding: 10px;
+    font-weight: normal;
+    font-size: 1rem;
+    background-color: var(--bg-tertiary);
+    border-top: 2px solid var(--border-primary);
+    border-bottom: 2px solid var(--border-primary);
+}
+
+.asset-card .asset-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 0.85rem;
+    color: var(--text-tertiary);
+}
+
+.asset-card .asset-link {
+    display: block;
+    margin: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    transition: var(--transition_linear);
+}
+
+/* ANIMATIONS AND KEYFRAMING */
+
+@keyframes scale-in {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.user-card, .player-card, .asset-card {
+    -webkit-animation: .7s scale-in;
+    animation: .7s scale-in;
+}
+
+.user-pic, .player-pic {
+    -webkit-animation: .7s scale-in forwards;
+    animation: .7s scale-in forwards;
+    animation-delay: .2s;
+}
+
+.user-name, .user-title, .player-name, .player-title {
+    -webkit-animation: 0.7s fade-in forwards;
+    animation: 0.7s fade-in forwards;
+}
+
+.user-name, .player-name {
+    animation-delay: .4s;
+}
+
+.user-title, .player-title {
+    animation-delay: .5s;
+}
+
+.user-name {
+    animation: 0.5s .4s slide-up forwards, 0.7s fade-in forwards;
+}
+
+.user-desc {
+    animation: 0.5s .4s slide-up forwards, 0.7s .4s fade-in forwards;
+}
+
+@media screen and (max-width: 1250px) {
+
+    main {display: block!important;}
+    #mobile-content {display: none!important;}
+}

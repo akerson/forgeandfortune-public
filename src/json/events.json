@@ -1,0 +1,142 @@
+[
+  {
+    "id": "E001",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>If you’re reading this letter, then I’m already gone. But don’t worry, you’ve got this!</p>\n      I had to leave unexpectedly, for reasons I cannot disclose.  But here’s what you need to know:<br>\n      <p>First, this is your shop. Feel free to use it as you see fit. Francis, a worker from The Cat's Meow, and Revere, the daring thief, should be around to help you get started. I’ve also included some gold for you to start your operations.</p>\n      <p>Here’s what you should do:</p>\n      <li>Start making Knives, for income;</li>\n      <li>Give Revere one of those Knives to make her stronger;</li>\n      <li>Send her out on an adventure, to get crafting materials;</li>\n      </ul>\n      <p>Also, make sure you check out the guilds around here -- They're the best way to gain some fame and fortune around here and pick up some new recipes. Keep in mind no meals free, they'll want some honest work for the goodies.</p>\n      <p>If you follow these steps, you should be well on your way to success. Remember, all playstyles are viable (whatever that means).</p>\n      <p>You may hear from me again in the future.</p>\n      <p>Your friend,<br>\n      ABQU</p>\n      <p>P.S. I’ve left descriptions of the wares and my thoughts on the residents of the town.  You’ll do great! Okay, bye.</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E002",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Hey, I'm totally gone and not watching you, so this is a total coincidence, but...</p><p>I just noticed you unlocked all ten of the workers!  That's incredible!</p><p>Oh, I almost forgot!</p><p>Rumor has it the Action League has more workers if they like you enough.</p><p>Isn't that a neat little progression system?</p><p>If anyone asks, I've gone missing.</p><p>Not watching you,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E003",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Hi.</p><p>It's me, Abqu, your resident .... person.</p><p>Congrats on unlocking your first advanced worker!  What a doozy that was, huh.</p><p>Anyway, they behave like normal workers, but now you can make two recipes that require a resource at once! Isn't that great? Of course it's great.</p><p>Keep up the great work!</p><p>Your mentor,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E005",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>I am in desperate need of new adventurers, for reasons I cannot disclose.</p><p>There are great rewards, but little time.</p><p>It is important you do not share this with anyone.</p><p>Ooops, ahem, sorry, that's for someone else.</p><p>Please don't tell anyone about this.</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E006",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Hey, would you look at that!</p><p>It looks like you crafted a recipe ONE HUNDRED TIMES.  Amazing.</p><p>You may be wondering, \"What exactly does this mean?\"</p><p>Well, I'm here to tell ya:</p><p>Items that you craft 100 times become mastered.  This means:</p><p>A) The craft progress bar for that item has changed into an 82% better color.</br><p>2) The chance at exceptional crafts for that item has DOUBLED.</br><p>c) If the item took materials to craft, the recipe now takes NO MATERIALS.</br><p>IV) You've gained a progress point, whatever that is.</p><p>Anyway, great job, and keep up the great work!</p><p>Your min/max friend til the end,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E007",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Oh, one more thing.</p><p>You may notice your inventory is filling up with a lot of stuff, and your carpal tunnel is flaring up, but you can't walk to the drugstore because of the plantar fasciitis, so you try to take a nap but your sleep apnea is out of control, and, er, uh.</p><p>If you click on the $ emblem on your action slot, you will AUTOSELL stuff your workers make.  Make sure to click it a few times, it has a bunch of neat settings!</p><p>Talk to you soon,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E009",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Ohohohohoho!</p><p>Look at what you've discovered! That's an odd blueprint the Action League recovered.</p><p>Oh my, isn't it pretty.  I bet we could use this to start up a city.</p><p>Come by the town to start the construction, and then we can talk about world destruction!</p><p>Erm, my bad.  I meant to say, let's start on this building straight away.</p><p>You and I will see this through (to the bitter end).</p><p>Warmest regards,</p><p>Abqu</p><p>(your best friend)</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E010",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Woah, buddy, check you out!  You've discovered another building blueprint.</p><p>This one looks pretty special.  It's got a mythical quality to it.  I hope you won't be discouraged to tackle the project because of it.</p><p>Come and and see me in the town, and we'll get this party started!</p><p>Woop woop,</p><p>Abqu</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E011",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Oh, person, look at you go.  You've stumbled across another rare blooprint!</p><p>This one is, uh, well, it's pretty tough to describe.  It's definitely elite, and one-of-a-kind, but it is not for everyone.</p><p>It's got some writing here, let's see... it says... 'overlord' and there's a scribble that reminds me of compost.  Hmm.</p><p>Come to the town, and we'll get to work.</p><p>Friends aren't profitable,</p><p>Abqu</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E012",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>My best friend, come on down!</p><p>You got the next set of plans for the town, and this one is pretty good, great, maybe even epic!</p><p>Hop on over to the town, and let's start working towards a better future.</p><p>You and me, together.</p><p>You and me, forever!</p><p>We're so in sync, it's like we finish each other's love letters.</p><p>Your soulmate,</p><p>Abqu</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E013",
+    "title": "Boss Reward",
+    "author": "The Action League",
+    "message": "<p>With your help we were finally able to kill that big monster. The Action League owes you a token of thanks -- we're sure your notoriety will spread far..</p><p>Warm Regards,</p><p>The Adventure League</p>",
+    "type": "boss"
+  },
+  {
+    "id": "E014",
+    "title": "Groovy Grove",
+    "author": "The Action League",
+    "message": "<p>Thanks to your efforts, our group made it back from the Groovy Grove safe and sound! Here's a 10% cut of the loot as a reward. We'll be sure to tell everyone what great work you did! As always, thanks for working with The Action League!</p><p>Kindest Regards,</p><p>The Adventure League</p>",
+    "type": "dungeon"
+  },
+  {
+    "id": "E015",
+    "title": "Spooky Spot",
+    "author": "The Action League",
+    "message": "<p>Thanks to your efforts, our group made it back from the Spooky Spot safe and sound! Here's a 10% cut of the loot as a reward. We'll be sure to tell everyone what great work you did! As always, thanks for working with The Action League!</p><p>Kindest Regards,</p><p>The Adventure League</p>",
+    "type": "dungeon"
+  },
+  {
+    "id": "E016",
+    "title": "Creepy Crag",
+    "author": "The Action League",
+    "message": "<p>Thanks to your efforts, our group made it back from the Creepy Crag safe and sound! Here's a 10% cut of the loot as a reward. We'll be sure to tell everyone what great work you did! As always, thanks for working with The Action League!</p><p>Kindest Regards,</p><p>The Adventure League</p>",
+    "type": "dungeon"
+  },
+  {
+    "id": "E017",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Hey guys, it's me, Abqu!</p><p>It seems so long since I sent you a letter.  Where has all the time gone?</p><p>I took a trip to the next kingdom over to visit my sister.  My brother-in-law tried to make me eat some weird burrito thing.  Other than that, pretty great trip.  Anyway, what's new with you?</p><p>Oh, wait, it looks like you've hit some sort of WALL IN ADVENTURING.  Let me see here...</p><p>According to my master data sheets, you've encountered a special floor -- a floor you can't progress through without the Action League's approval. How do you get that? By slaying a baddie of course!  What I suggest you do is somehow find and get rid of whatever baddie is in your way if you want to keep progressing.</p><p>Maybe once you've gotten rid of the obstacle, something else can be put in it's place?</p><p>Forever yours,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E018",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Oh hey there, I see you're having trouble with that craft!</p><p>Don't worry, it's a little complicated but your proud boy Abqu is here to help!</p><p>Sometimes it's a matter of you not having a worker for that resource yet. Recipes require workers, which are unlocked in the guilds. More importantly, a worker can only work on one craft at a time -- good luck getting ol' Francis to make two knives at once.</p><p>Hope that doesn't discourage you!</p><p>Keep crafting and overdrafting,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E019",
+    "title": "A Mysterious Letter",
+    "author": "Abqu",
+    "message": "<p>Bonjour, mon petit fromage!</p><p>You've found yet another building blueprint.&nbsp; Let's see what it says here....<br /><br /><em>STEAM PIPE TRUNK DISTRIBUTION VENUE</em></p><p>That seems a bit... wordy?&nbsp; We're gonna have to rename that sucker.&nbsp;&nbsp;</p><p>Let's head to the town and see what we have in store.</p><p>Looking forward to what's next,</p><p>ABQU</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E020",
+    "title": "Pledge Drive",
+    "author": "M.E.T.A.",
+    "message": "<p>To Whom It May Concern:</p><p>I am writing to inform you of an extraordinary organization.&nbsp; Our sole mission is to provide better adventuring conditions for the denizens of our great land.&nbsp; &nbsp;</p><p>We call ourselves, \"Monsters for the Equitable Treatment of Adventurers\".&nbsp;</p><p>We formally invite you to join our organization.&nbsp; With your lunarly donation, we believe we can truly bring justice for all.</p><p>Thank you.</p><p>&nbsp;</p><p>Hank Porter<br />M.E.T.A. Community Outreach</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E021",
+    "title": "Pledge Drive",
+    "author": "M.E.T.A.",
+    "message": "<p>Hello!&nbsp;</p><p>It's pledge drive again here at headquarters, and thanks to your previous interest in our organization, I wanted to give you the chance to give us more money!&nbsp;&nbsp;</p><p>By joining our prestigious Platinum Club donation tier, our organization is ready to give you special access to our exclusive lounge, where you can join likeminded philantropists, and tell tall tales about your continued efforts to improve adventuring conditions.</p><p>And as a special bonus, we'll throw in a fuzzy Revere keychain!</p><p>&nbsp;</p><p>Hank Porter<br />M.E.T.A. Community Outreach</p>",
+    "type": "letter"
+  },
+  {
+    "id": "E022",
+    "title": "Pledge Drive",
+    "author": "M.E.T.A.",
+    "message": "<p style=\"text-align: center;\"><em>♫ ♪ ♫<br />In the Arms of an Adventurer<br />Quest away from Here</em></p><p style=\"text-align: center;\"><em>From this dark, cold creepy cavern<br />and the Endless Floors that They fear<br />♫ ♪ ♫<br /><br /><br /></em></p><p style=\"text-align: left;\">Only you can help the struggling adventurers of our great land.&nbsp; By joining the Diamond Club Level of our organization, Monsters for the Equitable Treatment of Adventurers, you will prevent so much suffering and time wasted.</p><p style=\"text-align: left;\">If you upgrade your membership today, you'll gain the rank of master on our council.&nbsp; And if you call within the next thirty minutes, you'll get this decorative Grim throw pillow.</p><p style=\"text-align: left;\">Operators are standing by -- call now!</p><p style=\"text-align: left;\">&nbsp;</p><p style=\"text-align: left;\">&nbsp;</p><p style=\"text-align: left;\">Hank Porter<br />M.E.T.A. Director Of Community Relations</p>",
+    "type": "letter"
+  }
+]
